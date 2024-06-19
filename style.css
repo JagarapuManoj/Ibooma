@@ -1,0 +1,190 @@
+body{
+  font-size: 18px;
+  position:relative;
+  align-items: relative;
+}
+header{
+  color:#E9F6FF;
+  text-align:center;
+  margin-top: -6px;
+  
+}
+#heading{
+  margin-right: 40px;
+}
+#hr{
+  border: 1px solid darkorange;
+  margin-top: -10px;
+  height: 1px;
+  width:100%;
+}
+.menu{
+  width:22px;
+  height:22px;
+  left:5px;
+  top:-52px;
+  background-color:#E9F6FF;
+  padding: 7px;
+  position:relative;
+}
+.menu i{
+  width:60%;
+  height:2px;
+  position:absolute;
+  top:40%;
+  left:50%;
+  display:block;
+  background:black;
+  border-radius:2px;
+  transform: translate(-50%,-50%);
+  transition: transform 0.5s,width 0.3s;
+  margin-top:4px;
+}
+#line1{
+ << margin-top:-4px;
+  transform: translate(-50%,-450%);
+}
+#line3{
+ << margin-top:12px;
+ transform: translate(-50%,7px);
+}
+.cross #line1{
+  transform: translate(-50%,45%) rotate(-45deg);
+}
+.cross #line3{
+  transform: translate(-50%,45%) rotate(45deg);
+}
+.cross #line2{
+  width:0px;
+}
+.cross{
+  bottom:10px;
+}
+button:active{
+  border: 2px solid red;
+}
+#searchicon{
+  width:35.5px;
+  height:33.5px;
+  top:4px;
+  left:95%;
+  position:absolute;
+  float:left;
+  padding:10px;
+  background:#2196F3;
+  color:balck;
+  font-size:18px;
+  border: 1px solid grey;
+  border-left:none;
+  cursor:pointer;
+}
+#searchicon img{
+  padding:8px;
+  width:20px;
+  height:18px;
+  position:relative;
+  margin:-10px 0px -4px -10px;
+  background-color:#E9F6FF;
+}
+dialog{
+  top:10px;
+  left:8px;
+  background-color:black;
+  color:orange;
+  position:relative;
+  margin:35px 100% 100% 0px;
+}
+dialog::backdrop{
+  background-color:rgba(15.69,0.78,45.49,0.5);
+}
+.cna button{
+  width:100%;
+  background: none;
+  color:orange;
+  border:none;
+  font-size:18px;
+ padding: 10px 40px 10px 40px;
+}
+.cna button:active{
+  color:#E9F6FF;
+}
+.search{
+  float: right;
+  left:97%;
+  margin-top: -80px;
+  border-radius:25px;
+  width:75px;
+  height: 25px;
+}
+.search:hover{
+  width:103px;
+  height: px;
+  margin-left:50px;
+}
+@media only screen and (min-width:593px){
+  #heading{
+    font-size: 35px;
+    margin-left: 150px;
+  }
+  .search{
+    position:relative;
+    width:240px;
+    height: 40px;
+    left:22%;
+    margin-top: -90px;
+  }
+  .search::placeholder{
+    font-size:21px;
+    color:black;
+    margin-top:-40px;
+    margin-left:70px;
+    text-align: left;
+  }
+  .menu{
+    width:46px;
+    height:46px;
+    margin-top:-30px;
+    margin-left: 10px;
+    padding:0px;
+  }
+  .search:hover{
+    width:430px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #hr{
+    border: 2px solid #ff8800;
+    width:120%;
+  }
+  #all{
+    width:100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+  }
+  .image{
+    width:240px;
+    height:300px;
+  }
+  #row1{
+    margin-left: 20px;
+  }
+  #p{
+  color:white;
+  margin-top: 10px;
+  font-size: 20px;
+}
+}
+/*movies*/
+.image{
+  position: relative;
+  margin-right: 11px;
+}
+.p{
+  color:red;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.row{
+  display: flex;
+}
